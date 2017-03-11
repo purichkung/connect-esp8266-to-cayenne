@@ -6,6 +6,7 @@ This file is only test on NodeMCU V2 board, though that will support all esp8266
 ## Requirements
  * Arduino Software
  * Mircro-USB Cable
+ * NodeMCU V2 Board or other esp8266
  
 ## Getting Started
  1. Download and Install Arduino IDE
