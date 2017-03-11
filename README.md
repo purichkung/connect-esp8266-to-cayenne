@@ -19,6 +19,9 @@ This file is only test on NodeMCU V2 board, though that will support all esp8266
 ## Setup Cayenne
  1. Register you Cayenne account.
  2. Add Arduino Device ,then choose any Arduino Board and Shield.
+ 3. Remember your **Auth Token**.
  
 ## Connect esp8266 to Cayenne
- 1. Open Folder **
+ 1. Open Folder **Arduino Files -> Connect_to_Cayenne** then open **Connect_to_Cayenne.ino**.
+ 2. Replace your **Auth Token** on `char token[] = "your token took from Cayenne website"`
+ 3. Replace your **wireless ssid and password** on `char ssid[] = "..." and char password[] = "..."`
